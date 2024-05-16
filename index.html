@@ -4,12 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    <!-- BANNER -->
     <div id="banner">
-        <h1>Tradição em projetos de arquitetura</h1>
-        <p>Arquitetura residencial e comercial.</p>
+        <h1 id="titulo-banner">Tradição em projetos de arquitetura</h1><br>
+        <p id="texto-banner">Arquitetura residencial e comercial.</p>
+    </div>
+    <!-- METRICS -->
+    <div id="metrics-bar">
+        <p class="metrics"><b class="metric-value">850</b> <br> Empreendimentos construídos</p>
+        <p class="metrics"><b class="metric-value">40</b> <br> anos de mercado e experiência</p>
+        <p class="metrics"><b class="metric-value">2,000,000</b> <br> m² em projetos construídos</p>
+    </div>
+    <!-- CONTENT -->
+    <div id="content">
+        <p id="content-text"><b id="content-text-title">Arquitetos com História e Experiência.</b><br><br>
+        Nós realizamos desde 2002 projetos e gerenciamento de obras.
+         Com mais de 800 projetos e 2.000.000 de m² construídos, tendo como principal 
+         proposta transformar em realidade os sonhos de seus clientes, criando projetos personalizados, 
+         unindo a tradição e a modernidade em nossos projetos.
+        </p>
+        <img id="content-img" src="img/project1.svg" alt="ERROR">
+
+    </div>
+    <!-- FORMS -->
+    <div id="form">
+        <h1 id="form-title">Conheça mais sobre nossos serviços:</h1>
+        <form action="https://api.sheetmonkey.io/form/nA9uAxVkd4BdEFBYpsb5xU" method="post">
+            <input type="text" placeholder="Nome" name="Name" required> <br>
+            <input type="email" placeholder="E-mail" name="Email" required> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time">
+            <button type="submit">Fale Conosco</button>
+        </form>
     </div>
 </body>
 </html>

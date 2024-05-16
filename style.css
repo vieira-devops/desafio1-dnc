@@ -1,6 +1,120 @@
-
-
+*{
+    font-family: 'inter';
+    margin: 0%;
+}
 
 #banner{
     background-color: #303030;
+    padding: 100px;
+}
+
+#titulo-banner{
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 50px 0px 0px 62px;
+}
+
+#texto-banner{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0px 0px 0px 62px;
+}
+
+#metrics-bar{
+    background-color: #f9f9f9;
+    color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.metrics{
+    color: #000000;
+    margin: 70px 0px 70px 80px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.metric-value{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#content{
+    background-color: #ffffff;
+    color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+}
+
+#content-text{
+    margin: 50px 35px 50px 80px;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#content-text-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#content-img{
+    width: 510px;
+    height: 605px;
+    margin: 82px 65px 60px 80px;
+}
+
+#form{
+    background-color: #303030;
+    padding: 10px;
+    text-align: center;
+}
+
+#form-title{
+    color: #ffffff;
+    margin: 80px 0px 40px 0px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color: #ffffff;
+    margin: 20px;
+    border: 0px;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+input::placeholder{
+    font-size: 24px;
+    font-weight: 700;
+    color: #00000030;
+}
+
+button{
+    margin-top: 20px;
+    width: 286px;
+    height: 74px;
+    background-color: #C07212;
+    color: #ffffff;
+    border: 0px;
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ce8a38;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #8058279c;
+    transition-duration: 0.5s;
 }
